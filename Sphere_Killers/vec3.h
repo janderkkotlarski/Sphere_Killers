@@ -21,19 +21,20 @@ public:
     void absol() noexcept
     { m_t = sqrt(m_x*m_x + m_y*m_y + m_z*m_z); }
 
-    double get_x() noexcept
+    double get_x() const noexcept
     { return m_x;}
 
-    double get_y() noexcept
+    double get_y() const noexcept
     { return m_y;}
 
-    double get_z() noexcept
+    double get_z() const noexcept
     { return m_z;}
 
-    double get_t() noexcept
+    double get_t() const noexcept
     { return m_t;}
 
 };
 
+Vec3 crossing(const Vec3& vect_a, const Vec3& vect_b) noexcept;
 
 #endif // VEC3_H
