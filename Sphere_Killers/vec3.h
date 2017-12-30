@@ -37,4 +37,6 @@ public:
 
 Vec3 crossing(const Vec3& vect_a, const Vec3& vect_b) noexcept;
 
+double dotting(const Vec3& vect_a, const Vec3& vect_b) noexcept;
+
 #endif // VEC3_H
