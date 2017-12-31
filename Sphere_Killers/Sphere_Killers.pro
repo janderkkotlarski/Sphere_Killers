@@ -32,7 +32,9 @@ LIBS += -LD:\SFML-2.4.0\bin
 LIBS += -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 SOURCES += main.cpp \
-    vec3.cpp
+    vec3.cpp \
+    qube.cpp
 
 HEADERS += \
-    vec3.h
+    vec3.h \
+    qube.h
